@@ -75,20 +75,27 @@ input{
 }
 
 .items:nth-child(odd){ 
+    display: block;
+    box-sizing: border-box;
+    border-top: 3px #88839E solid;
+    border-bottom: 3px #88839E solid;
     text-decoration: none;
     width: 534px;
-    height: 45px;
+    height: 39px;
     background-color: #88839E;
-    display: block;
     color: #FFFFFF;
+    
 }
 
 .items:nth-child(even){
+    display: block;
+    box-sizing: border-box;
+    border-top: 3px #7A7593 solid;
+    border-bottom: 3px #7A7593 solid;
     text-decoration: none;
     width: 534px;
-    height: 45px;
+    height: 39px;
     background-color: #7A7593;
-    display: block;
     color: #FFFFFF;
 }
 
@@ -99,7 +106,7 @@ input{
     border-bottom: 3px #FFFFFF solid;
 }
 
-.ite span:nth-child(2){
+.item span:nth-child(2){
     font-size: 11px;
     margin-left: 3px;
 }

@@ -1,10 +1,12 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-*{transition: all .1s ease-in;}
+    *{
+    transition: all .1s ease-in;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -84,7 +86,6 @@ input{
     height: 39px;
     background-color: #88839E;
     color: #FFFFFF;
-    
 }
 
 .items:nth-child(even){
